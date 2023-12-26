@@ -144,7 +144,7 @@ function MainCard() {
     setToggleColor2(true);
     setToggleColor1(false);
     if (questions === 0) {
-      setProgressVal(11);
+      setProgressVal(11.1);
     }
   };
 
@@ -159,7 +159,7 @@ function MainCard() {
   const goToPrevious = () => {
     if (questions > 0) {
       setQuestions(questions - 1);
-      setCompleted((currCount) => currCount - 10);
+      setCompleted((currCount) => currCount - progressVal);
       setNextQuestion(arr[questions - 1]?.id);
       userScoreArr.pop();
       setToggleColor1(false);
