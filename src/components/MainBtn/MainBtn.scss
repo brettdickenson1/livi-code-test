@@ -1,0 +1,27 @@
+.nextBtn {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  right: 0;
+  left: 0;
+  margin-left: auto;
+  margin-right: auto;
+  width: 100%;
+  position: absolute;
+  button {
+    width: 100%;
+    border: transparent;
+    color: white;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 15px;
+    font-family: "Montserrat";
+    font-weight: 800;
+    height: 45px;
+  }
+  svg {
+    position: absolute;
+    right: 10px;
+    height: 18px;
+  }
+}
